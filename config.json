@@ -1,0 +1,26 @@
+{
+  "assemblies": [
+    {
+      "name": "ro15_ncbi_only_chr.fna",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "ro15_ncbi_only_chr.fna-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://raw.githubusercontent.com/icemduru/listeria_ro15_transcript/main/ro15_ncbi_only_chr.fna"
+          },
+          "faiLocation": {
+            "uri": "https://raw.githubusercontent.com/icemduru/listeria_ro15_transcript/main/ro15_ncbi_only_chr.fna.fai"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": []
+}
