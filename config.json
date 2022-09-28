@@ -1,4 +1,18 @@
 {
+  "configuration": {
+    "rpc": {
+      "defaultDriver": "WebWorkerRpcDriver",
+      "drivers": {
+        "MainThreadRpcDriver": {},
+        "WebWorkerRpcDriver": {}
+      }
+    },
+    "logoPath": {
+      "locationType": "UriLocation",
+      "uri": ""
+    }
+  },
+  "plugins": [],
   "assemblies": [
     {
       "name": "ro15_ncbi_only_chr.fna",
@@ -8,19 +22,79 @@
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
+            "locationType": "UriLocation",
             "uri": "https://raw.githubusercontent.com/icemduru/listeria_ro15_transcript/main/ro15_ncbi_only_chr.fna"
           },
           "faiLocation": {
+            "locationType": "UriLocation",
             "uri": "https://raw.githubusercontent.com/icemduru/listeria_ro15_transcript/main/ro15_ncbi_only_chr.fna.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "/path/to/fa.metadata.yaml"
           }
-        }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "ro15_ncbi_only_chr.fna-ReferenceSequenceTrack-LinearReferenceSequenceDisplay"
+          }
+        ]
       }
     }
   ],
-  "configuration": {},
+  "internetAccounts": [],
+  "aggregateTextSearchAdapters": [],
   "connections": [],
   "defaultSession": {
     "name": "New Session"
   },
-  "tracks": []
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "ro15_ncbi_only_chr_sorted.gff",
+      "name": "ro15_ncbi_only_chr_sorted.gff",
+      "category": [
+        "Annotation"
+      ],
+      "assemblyNames": [
+        "ro15_ncbi_only_chr.fna"
+      ],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "ro15_ncbi_only_chr_sorted.gff.gz"
+        },
+        "index": {
+          "location": {
+            "uri": "ro15_ncbi_only_chr_sorted.gff.gz.tbi"
+          },
+          "indexType": "TBI"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "chromosome_TSS_sorted.gff",
+      "name": "chromosome_TSS_sorted.gff",
+      "category": [
+        "Annotation"
+      ],
+      "assemblyNames": [
+        "ro15_ncbi_only_chr.fna"
+      ],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "chromosome_TSS_sorted.gff.gz"
+        },
+        "index": {
+          "location": {
+            "uri": "chromosome_TSS_sorted.gff.gz.tbi"
+          },
+          "indexType": "TBI"
+        }
+      }
+    }
+  ]
 }
