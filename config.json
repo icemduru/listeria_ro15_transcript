@@ -222,10 +222,10 @@
       "adapter": {
         "type": "CramAdapter",
         "cramLocation": {
-          "uri": "R173.cram"
+          "uri": "https://github.com/icemduru/listeria_ro15_transcript/raw/main/R173.cram"
         },
         "craiLocation": {
-          "uri": "R173.cram.crai"
+          "uri": "https://github.com/icemduru/listeria_ro15_transcript/raw/main/R173.cram.crai"
         },
         "sequenceAdapter": {
           "type": "IndexedFastaAdapter",
