@@ -1,0 +1,97 @@
+{
+  "session": {
+    "id": "J9u8FyPlo",
+    "name": "New session 9/28/2022, 3:24:23 PM",
+    "margin": 0,
+    "drawerWidth": 384,
+    "views": [
+      {
+        "id": "ZicQMkIST",
+        "type": "LinearGenomeView",
+        "offsetPx": -83,
+        "bpPerPx": 2026.716626698641,
+        "displayedRegions": [
+          {
+            "refName": "CADEHJ010000001.1",
+            "start": 0,
+            "end": 3042507,
+            "reversed": false,
+            "assemblyName": "ro15_ncbi_only_chr.fna"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "95LG70QZA",
+            "type": "FeatureTrack",
+            "configuration": "TSS_prediction",
+            "displays": [
+              {
+                "id": "StvwmltcT5",
+                "type": "LinearBasicDisplay",
+                "height": 100,
+                "configuration": "TSS_prediction-LinearBasicDisplay"
+              }
+            ]
+          },
+          {
+            "id": "YfYxtdI_f",
+            "type": "FeatureTrack",
+            "configuration": "sRNA_prediction",
+            "displays": [
+              {
+                "id": "6i2qFWc4eT",
+                "type": "LinearBasicDisplay",
+                "height": 100,
+                "configuration": "sRNA_prediction-LinearBasicDisplay"
+              }
+            ]
+          },
+          {
+            "id": "OU_j86G1Q8",
+            "type": "FeatureTrack",
+            "configuration": "Gene_Annotation",
+            "displays": [
+              {
+                "id": "Ry_NEFVCdp",
+                "type": "LinearBasicDisplay",
+                "height": 100,
+                "configuration": "Gene_Annotation-LinearBasicDisplay"
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "hideNoTracksActive": false,
+        "trackSelectorType": "hierarchical",
+        "trackLabels": "overlapping",
+        "showCenterLine": false,
+        "showCytobandsSetting": true,
+        "showGridlines": true
+      }
+    ],
+    "widgets": {
+      "hierarchicalTrackSelector": {
+        "id": "hierarchicalTrackSelector",
+        "type": "HierarchicalTrackSelectorWidget",
+        "collapsed": {
+          "TSS_prediction": true,
+          "sRNA_prediction": true,
+          "Gene_Annotation": true
+        },
+        "filterText": "",
+        "view": "ZicQMkIST"
+      }
+    },
+    "activeWidgets": {
+      "hierarchicalTrackSelector": "hierarchicalTrackSelector"
+    },
+    "connectionInstances": [],
+    "sessionTracks": [],
+    "sessionConnections": [],
+    "sessionAssemblies": [],
+    "sessionPlugins": [],
+    "minimized": false,
+    "drawerPosition": "right"
+  }
+}
