@@ -43,14 +43,23 @@
       }
     }
   ],
+<<<<<<< HEAD
+=======
+  "internetAccounts": [],
+  "aggregateTextSearchAdapters": [],
+  "connections": [],
+>>>>>>> 9285981e93bceb6500b16faf9d9e23e725023e40
   "tracks": [
     {
       "type": "FeatureTrack",
       "trackId": "Gene_Annotation",
       "name": "Gene_Annotation",
+<<<<<<< HEAD
       "assemblyNames": [
         "ro15_ncbi_only_chr.fna"
       ],
+=======
+>>>>>>> 9285981e93bceb6500b16faf9d9e23e725023e40
       "category": [
         "Annotation"
       ],
@@ -114,11 +123,16 @@
     },
     {
       "type": "FeatureTrack",
+<<<<<<< HEAD
       "trackId": "sRNA_prediction",
       "name": "sRNA_prediction",
       "assemblyNames": [
         "ro15_ncbi_only_chr.fna"
       ],
+=======
+      "trackId": "TSS_prediction",
+      "name": "TSS_prediction",
+>>>>>>> 9285981e93bceb6500b16faf9d9e23e725023e40
       "category": [
         "Annotation"
       ],
@@ -283,11 +297,60 @@
           }
         }
       }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "sRNA_prediction",
+      "name": "sRNA_prediction",
+      "category": [
+        "Annotation"
+      ],
+      "assemblyNames": [
+        "ro15_ncbi_only_chr.fna"
+      ],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "chromosome_sRNA_sorted.gff.gz"
+        },
+        "index": {
+          "location": {
+            "uri": "chromosome_sRNA_sorted.gff.gz.tbi"
+          },
+          "indexType": "TBI"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Operon_prediction",
+      "name": "Operon_prediction",
+      "category": [
+        "Annotation"
+      ],
+      "assemblyNames": [
+        "ro15_ncbi_only_chr.fna"
+      ],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "COSMO_short_and_long_reads_operons_sorted.gff.gz"
+        },
+        "index": {
+          "location": {
+            "uri": "COSMO_short_and_long_reads_operons_sorted.gff.gz.tbi"
+          },
+          "indexType": "TBI"
+        }
+      }
     }
   ],
+<<<<<<< HEAD
   "internetAccounts": [],
   "aggregateTextSearchAdapters": [],
   "connections": [],
+=======
+>>>>>>> 9285981e93bceb6500b16faf9d9e23e725023e40
   "defaultSession": {
     "name": "New Default Session",
     "views": [
@@ -298,4 +361,8 @@
       }
     ]
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9285981e93bceb6500b16faf9d9e23e725023e40
