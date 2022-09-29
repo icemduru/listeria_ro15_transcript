@@ -237,6 +237,35 @@
           }
         }
       }
+    },
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "R173",
+      "name": "R173",
+      "category": [
+        "Direct RNA"
+      ],
+      "assemblyNames": [
+        "ro15_ncbi_only_chr.fna"
+      ],
+      "adapter": {
+        "type": "CramAdapter",
+        "cramLocation": {
+          "uri": "https://github.com/icemduru/listeria_ro15_transcript/raw/main/R173.cram"
+        },
+        "craiLocation": {
+          "uri": "https://github.com/icemduru/listeria_ro15_transcript/raw/main/R173.cram.crai"
+        },
+        "sequenceAdapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "https://raw.githubusercontent.com/icemduru/listeria_ro15_transcript/main/ro15_ncbi_only_chr.fna"
+          },
+          "faiLocation": {
+            "uri": "https://raw.githubusercontent.com/icemduru/listeria_ro15_transcript/main/ro15_ncbi_only_chr.fna.fai"
+          }
+        }
+      }
     }
   ],
   "defaultSession": {
