@@ -1,15 +1,15 @@
 {
   "session": {
-    "id": "vVKVuyZtP",
-    "name": "New session 9/29/2022, 12:34:27 PM",
+    "id": "cCDkOt5B6",
+    "name": "New Default Session 9/29/2022, 3:30:27 PM",
     "margin": 0,
     "drawerWidth": 384,
     "views": [
       {
-        "id": "tAQ4m1lvu",
+        "id": "LinearGenomeView-0",
         "type": "LinearGenomeView",
-        "offsetPx": 456451,
-        "bpPerPx": 2.4778961523871095,
+        "offsetPx": 49448,
+        "bpPerPx": 8.479911277058253,
         "displayedRegions": [
           {
             "refName": "CADEHJ010000001.1",
@@ -21,47 +21,78 @@
         ],
         "tracks": [
           {
-            "id": "U_0jhU_iU",
-            "type": "FeatureTrack",
-            "configuration": "Gene annotation",
-            "displays": [
-              {
-                "id": "K6UEo45smL",
-                "type": "LinearBasicDisplay",
-                "height": 100,
-                "configuration": "Gene annotation-LinearBasicDisplay"
-              }
-            ]
-          },
-          {
-            "id": "93Q5LKDvA",
+            "id": "7f_Y2ytgL",
             "type": "FeatureTrack",
             "configuration": "TSS prediction",
             "displays": [
               {
-                "id": "R1KLDAAg69",
+                "id": "_2CEWMoeOk",
                 "type": "LinearBasicDisplay",
                 "height": 100,
+                "userBpPerPxLimit": 1832.8355421686747,
                 "configuration": "TSS prediction-LinearBasicDisplay"
               }
             ]
           },
           {
-            "id": "fHBlK-4ln",
-            "type": "AlignmentsTrack",
-            "configuration": "R312 untreated",
+            "id": "MSoGfmcOE",
+            "type": "FeatureTrack",
+            "configuration": "Operon prediction",
             "displays": [
               {
-                "id": "F5SiU87wlG",
+                "id": "WppuaF2HMK",
+                "type": "LinearBasicDisplay",
+                "height": 100,
+                "userBpPerPxLimit": 1832.8355421686747,
+                "configuration": "Operon prediction-LinearBasicDisplay"
+              }
+            ]
+          },
+          {
+            "id": "ASfQE9xpQ3",
+            "type": "QuantitativeTrack",
+            "configuration": "RNA_reads_merged_reverse",
+            "displays": [
+              {
+                "id": "ZV1O998SE0",
+                "type": "LinearWiggleDisplay",
+                "height": 100,
+                "configuration": "RNA_reads_merged_reverse-LinearWiggleDisplay",
+                "selectedRendering": "",
+                "resolution": 1,
+                "constraints": {}
+              }
+            ]
+          },
+          {
+            "id": "uV087Bxxh",
+            "type": "FeatureTrack",
+            "configuration": "Gene annotation",
+            "displays": [
+              {
+                "id": "isJBd4acwF",
+                "type": "LinearBasicDisplay",
+                "height": 100,
+                "userBpPerPxLimit": 1832.8355421686747,
+                "configuration": "Gene annotation-LinearBasicDisplay"
+              }
+            ]
+          },
+          {
+            "id": "Afa0jsHcu",
+            "type": "AlignmentsTrack",
+            "configuration": "R173_1-608kbp",
+            "displays": [
+              {
+                "id": "Usv8sWbKsm",
                 "type": "LinearAlignmentsDisplay",
                 "PileupDisplay": {
-                  "id": "B6f0US6n6v",
+                  "id": "GBSssYgsbb",
                   "type": "LinearPileupDisplay",
                   "height": 100,
-                  "userByteSizeLimit": 6608910,
                   "configuration": {
                     "type": "LinearPileupDisplay",
-                    "displayId": "R312 untreated-LinearAlignmentsDisplay_pileup_xyz"
+                    "displayId": "R173_1-608kbp-LinearAlignmentsDisplay_pileup_xyz"
                   },
                   "showSoftClipping": false,
                   "colorBy": {
@@ -73,13 +104,12 @@
                   }
                 },
                 "SNPCoverageDisplay": {
-                  "id": "lH_k66FtqJ",
+                  "id": "h1-weHpuHO",
                   "type": "LinearSNPCoverageDisplay",
                   "height": 45,
-                  "userByteSizeLimit": 6608910,
                   "configuration": {
                     "type": "LinearSNPCoverageDisplay",
-                    "displayId": "R312 untreated-LinearAlignmentsDisplay_snpcoverage_xyz"
+                    "displayId": "R173_1-608kbp-LinearAlignmentsDisplay_snpcoverage_xyz"
                   },
                   "selectedRendering": "",
                   "resolution": 1,
@@ -93,7 +123,7 @@
                   }
                 },
                 "snpCovHeight": 45,
-                "configuration": "R312 untreated-LinearAlignmentsDisplay",
+                "configuration": "R173_1-608kbp-LinearAlignmentsDisplay",
                 "height": 250,
                 "showCoverage": true,
                 "showPileup": true
@@ -116,12 +146,15 @@
         "id": "hierarchicalTrackSelector",
         "type": "HierarchicalTrackSelectorWidget",
         "collapsed": {
-          "Gene annotation": true,
           "TSS prediction": true,
-          "R312 untreated": true
+          "RNA_reads_merged_reverse": true,
+          "sRNA prediction": false,
+          "Operon prediction": true,
+          "Gene annotation": true,
+          "R173_1-608kbp": true
         },
         "filterText": "",
-        "view": "tAQ4m1lvu"
+        "view": "LinearGenomeView-0"
       }
     },
     "activeWidgets": {

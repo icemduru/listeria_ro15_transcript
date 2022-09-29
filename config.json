@@ -636,8 +636,31 @@
       {
         "id": "LinearGenomeView-0",
         "type": "LinearGenomeView",
+        "offsetPx": 0,
+        "bpPerPx": 1832.8355421686747,
+        "displayedRegions": [
+          {
+            "refName": "CADEHJ010000001.1",
+            "start": 0,
+            "end": 3042507,
+            "reversed": false,
+            "assemblyName": "ro15_ncbi_only_chr.fna"
+          }
+        ],
         "tracks": []
       }
-    ]
+    ],
+    "widgets": {
+      "hierarchicalTrackSelector": {
+        "id": "hierarchicalTrackSelector",
+        "type": "HierarchicalTrackSelectorWidget",
+        "collapsed": {},
+        "filterText": "",
+        "view": "LinearGenomeView-0"
+      }
+    },
+    "activeWidgets": {
+      "hierarchicalTrackSelector": "hierarchicalTrackSelector"
+    }
   }
 }
