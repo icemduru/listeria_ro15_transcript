@@ -1,15 +1,15 @@
 {
   "session": {
-    "id": "J9u8FyPlo",
-    "name": "New session 9/28/2022, 3:24:23 PM",
+    "id": "vVKVuyZtP",
+    "name": "New session 9/29/2022, 12:34:27 PM",
     "margin": 0,
     "drawerWidth": 384,
     "views": [
       {
-        "id": "ZicQMkIST",
+        "id": "tAQ4m1lvu",
         "type": "LinearGenomeView",
-        "offsetPx": -83,
-        "bpPerPx": 2026.716626698641,
+        "offsetPx": 456451,
+        "bpPerPx": 2.4778961523871095,
         "displayedRegions": [
           {
             "refName": "CADEHJ010000001.1",
@@ -21,41 +21,82 @@
         ],
         "tracks": [
           {
-            "id": "95LG70QZA",
+            "id": "U_0jhU_iU",
             "type": "FeatureTrack",
-            "configuration": "TSS_prediction",
+            "configuration": "Gene annotation",
             "displays": [
               {
-                "id": "StvwmltcT5",
+                "id": "K6UEo45smL",
                 "type": "LinearBasicDisplay",
                 "height": 100,
-                "configuration": "TSS_prediction-LinearBasicDisplay"
+                "configuration": "Gene annotation-LinearBasicDisplay"
               }
             ]
           },
           {
-            "id": "YfYxtdI_f",
+            "id": "93Q5LKDvA",
             "type": "FeatureTrack",
-            "configuration": "sRNA_prediction",
+            "configuration": "TSS prediction",
             "displays": [
               {
-                "id": "6i2qFWc4eT",
+                "id": "R1KLDAAg69",
                 "type": "LinearBasicDisplay",
                 "height": 100,
-                "configuration": "sRNA_prediction-LinearBasicDisplay"
+                "configuration": "TSS prediction-LinearBasicDisplay"
               }
             ]
           },
           {
-            "id": "OU_j86G1Q8",
-            "type": "FeatureTrack",
-            "configuration": "Gene_Annotation",
+            "id": "fHBlK-4ln",
+            "type": "AlignmentsTrack",
+            "configuration": "R312 untreated",
             "displays": [
               {
-                "id": "Ry_NEFVCdp",
-                "type": "LinearBasicDisplay",
-                "height": 100,
-                "configuration": "Gene_Annotation-LinearBasicDisplay"
+                "id": "F5SiU87wlG",
+                "type": "LinearAlignmentsDisplay",
+                "PileupDisplay": {
+                  "id": "B6f0US6n6v",
+                  "type": "LinearPileupDisplay",
+                  "height": 100,
+                  "userByteSizeLimit": 6608910,
+                  "configuration": {
+                    "type": "LinearPileupDisplay",
+                    "displayId": "R312 untreated-LinearAlignmentsDisplay_pileup_xyz"
+                  },
+                  "showSoftClipping": false,
+                  "colorBy": {
+                    "type": "strand"
+                  },
+                  "filterBy": {
+                    "flagInclude": 0,
+                    "flagExclude": 1540
+                  }
+                },
+                "SNPCoverageDisplay": {
+                  "id": "lH_k66FtqJ",
+                  "type": "LinearSNPCoverageDisplay",
+                  "height": 45,
+                  "userByteSizeLimit": 6608910,
+                  "configuration": {
+                    "type": "LinearSNPCoverageDisplay",
+                    "displayId": "R312 untreated-LinearAlignmentsDisplay_snpcoverage_xyz"
+                  },
+                  "selectedRendering": "",
+                  "resolution": 1,
+                  "constraints": {},
+                  "filterBy": {
+                    "flagInclude": 0,
+                    "flagExclude": 1540
+                  },
+                  "colorBy": {
+                    "type": "strand"
+                  }
+                },
+                "snpCovHeight": 45,
+                "configuration": "R312 untreated-LinearAlignmentsDisplay",
+                "height": 250,
+                "showCoverage": true,
+                "showPileup": true
               }
             ]
           }
@@ -75,12 +116,12 @@
         "id": "hierarchicalTrackSelector",
         "type": "HierarchicalTrackSelectorWidget",
         "collapsed": {
-          "TSS_prediction": true,
-          "sRNA_prediction": true,
-          "Gene_Annotation": true
+          "Gene annotation": true,
+          "TSS prediction": true,
+          "R312 untreated": true
         },
         "filterText": "",
-        "view": "ZicQMkIST"
+        "view": "tAQ4m1lvu"
       }
     },
     "activeWidgets": {

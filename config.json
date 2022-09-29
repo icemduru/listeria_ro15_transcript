@@ -1,18 +1,4 @@
 {
-  "configuration": {
-    "rpc": {
-      "defaultDriver": "WebWorkerRpcDriver",
-      "drivers": {
-        "MainThreadRpcDriver": {},
-        "WebWorkerRpcDriver": {}
-      }
-    },
-    "logoPath": {
-      "locationType": "UriLocation",
-      "uri": ""
-    }
-  },
-  "plugins": [],
   "assemblies": [
     {
       "name": "ro15_ncbi_only_chr.fna",
@@ -22,177 +8,109 @@
         "adapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "locationType": "UriLocation",
             "uri": "https://raw.githubusercontent.com/icemduru/listeria_ro15_transcript/main/ro15_ncbi_only_chr.fna"
           },
           "faiLocation": {
-            "locationType": "UriLocation",
             "uri": "https://raw.githubusercontent.com/icemduru/listeria_ro15_transcript/main/ro15_ncbi_only_chr.fna.fai"
-          },
-          "metadataLocation": {
-            "locationType": "UriLocation",
-            "uri": "/path/to/fa.metadata.yaml"
           }
-        },
-        "displays": [
-          {
-            "type": "LinearReferenceSequenceDisplay",
-            "displayId": "ro15_ncbi_only_chr.fna-ReferenceSequenceTrack-LinearReferenceSequenceDisplay"
-          }
-        ]
+        }
       }
     }
   ],
-<<<<<<< HEAD
-=======
-  "internetAccounts": [],
-  "aggregateTextSearchAdapters": [],
+  "configuration": {},
   "connections": [],
->>>>>>> 9285981e93bceb6500b16faf9d9e23e725023e40
   "tracks": [
     {
       "type": "FeatureTrack",
-      "trackId": "Gene_Annotation",
-      "name": "Gene_Annotation",
-<<<<<<< HEAD
-      "assemblyNames": [
-        "ro15_ncbi_only_chr.fna"
-      ],
-=======
->>>>>>> 9285981e93bceb6500b16faf9d9e23e725023e40
+      "trackId": "Gene annotation",
+      "name": "Gene annotation",
       "category": [
         "Annotation"
+      ],
+      "assemblyNames": [
+        "ro15_ncbi_only_chr.fna"
       ],
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "locationType": "UriLocation",
           "uri": "ro15_ncbi_only_chr_sorted.gff.gz"
         },
         "index": {
           "location": {
-            "locationType": "UriLocation",
             "uri": "ro15_ncbi_only_chr_sorted.gff.gz.tbi"
-          }
+          },
+          "indexType": "TBI"
         }
-      },
-      "displays": [
-        {
-          "type": "LinearBasicDisplay",
-          "displayId": "Gene_Annotation-LinearBasicDisplay"
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "Gene_Annotation-LinearArcDisplay"
-        }
-      ]
+      }
     },
     {
       "type": "FeatureTrack",
-      "trackId": "TSS_prediction",
-      "name": "TSS_prediction",
-      "assemblyNames": [
-        "ro15_ncbi_only_chr.fna"
-      ],
+      "trackId": "TSS prediction",
+      "name": "TSS prediction",
       "category": [
         "Annotation"
+      ],
+      "assemblyNames": [
+        "ro15_ncbi_only_chr.fna"
       ],
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "locationType": "UriLocation",
           "uri": "chromosome_TSS_sorted.gff.gz"
         },
         "index": {
           "location": {
-            "locationType": "UriLocation",
             "uri": "chromosome_TSS_sorted.gff.gz.tbi"
-          }
+          },
+          "indexType": "TBI"
         }
-      },
-      "displays": [
-        {
-          "type": "LinearBasicDisplay",
-          "displayId": "TSS_prediction-LinearBasicDisplay"
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "TSS_prediction-LinearArcDisplay"
-        }
-      ]
+      }
     },
     {
       "type": "FeatureTrack",
-<<<<<<< HEAD
-      "trackId": "sRNA_prediction",
-      "name": "sRNA_prediction",
-      "assemblyNames": [
-        "ro15_ncbi_only_chr.fna"
-      ],
-=======
-      "trackId": "TSS_prediction",
-      "name": "TSS_prediction",
->>>>>>> 9285981e93bceb6500b16faf9d9e23e725023e40
+      "trackId": "sRNA prediction",
+      "name": "sRNA prediction",
       "category": [
         "Annotation"
+      ],
+      "assemblyNames": [
+        "ro15_ncbi_only_chr.fna"
       ],
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "locationType": "UriLocation",
           "uri": "chromosome_sRNA_sorted.gff.gz"
         },
         "index": {
           "location": {
-            "locationType": "UriLocation",
             "uri": "chromosome_sRNA_sorted.gff.gz.tbi"
-          }
+          },
+          "indexType": "TBI"
         }
-      },
-      "displays": [
-        {
-          "type": "LinearBasicDisplay",
-          "displayId": "sRNA_prediction-LinearBasicDisplay"
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "sRNA_prediction-LinearArcDisplay"
-        }
-      ]
+      }
     },
     {
       "type": "FeatureTrack",
-      "trackId": "Operon_prediction",
-      "name": "Operon_prediction",
-      "assemblyNames": [
-        "ro15_ncbi_only_chr.fna"
-      ],
+      "trackId": "Operon prediction",
+      "name": "Operon prediction",
       "category": [
         "Annotation"
+      ],
+      "assemblyNames": [
+        "ro15_ncbi_only_chr.fna"
       ],
       "adapter": {
         "type": "Gff3TabixAdapter",
         "gffGzLocation": {
-          "locationType": "UriLocation",
           "uri": "COSMO_short_and_long_reads_operons_sorted.gff.gz"
         },
         "index": {
           "location": {
-            "locationType": "UriLocation",
             "uri": "COSMO_short_and_long_reads_operons_sorted.gff.gz.tbi"
-          }
+          },
+          "indexType": "TBI"
         }
-      },
-      "displays": [
-        {
-          "type": "LinearBasicDisplay",
-          "displayId": "Operon_prediction-LinearBasicDisplay"
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "Operon_prediction-LinearArcDisplay"
-        }
-      ]
+      }
     },
     {
       "type": "QuantitativeTrack",
@@ -229,9 +147,43 @@
       }
     },
     {
+      "type": "QuantitativeTrack",
+      "trackId": "Cap-seq_merged_forward",
+      "name": "Cap-seq_merged_forward",
+      "category": [
+        "Coverage"
+      ],
+      "assemblyNames": [
+        "ro15_ncbi_only_chr.fna"
+      ],
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "Cap-seq_merged_forward.bw"
+        }
+      }
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "Cap-seq_merged_reverse",
+      "name": "Cap-seq_merged_reverse",
+      "category": [
+        "Coverage"
+      ],
+      "assemblyNames": [
+        "ro15_ncbi_only_chr.fna"
+      ],
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "Cap-seq_merged_reverse.bw"
+        }
+      }
+    },
+    {
       "type": "AlignmentsTrack",
-      "trackId": "R312",
-      "name": "R312",
+      "trackId": "R312 untreated",
+      "name": "R312 untreated",
       "category": [
         "Direct RNA"
       ],
@@ -249,24 +201,18 @@
         "sequenceAdapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "locationType": "UriLocation",
             "uri": "https://raw.githubusercontent.com/icemduru/listeria_ro15_transcript/main/ro15_ncbi_only_chr.fna"
           },
           "faiLocation": {
-            "locationType": "UriLocation",
             "uri": "https://raw.githubusercontent.com/icemduru/listeria_ro15_transcript/main/ro15_ncbi_only_chr.fna.fai"
-          },
-          "metadataLocation": {
-            "locationType": "UriLocation",
-            "uri": "/path/to/fa.metadata.yaml"
           }
         }
       }
     },
     {
       "type": "AlignmentsTrack",
-      "trackId": "R173",
-      "name": "R173",
+      "trackId": "R173 400MPa treated",
+      "name": "R173 400MPa treated",
       "category": [
         "Direct RNA"
       ],
@@ -284,73 +230,15 @@
         "sequenceAdapter": {
           "type": "IndexedFastaAdapter",
           "fastaLocation": {
-            "locationType": "UriLocation",
             "uri": "https://raw.githubusercontent.com/icemduru/listeria_ro15_transcript/main/ro15_ncbi_only_chr.fna"
           },
           "faiLocation": {
-            "locationType": "UriLocation",
             "uri": "https://raw.githubusercontent.com/icemduru/listeria_ro15_transcript/main/ro15_ncbi_only_chr.fna.fai"
-          },
-          "metadataLocation": {
-            "locationType": "UriLocation",
-            "uri": "/path/to/fa.metadata.yaml"
           }
-        }
-      }
-    },
-    {
-      "type": "FeatureTrack",
-      "trackId": "sRNA_prediction",
-      "name": "sRNA_prediction",
-      "category": [
-        "Annotation"
-      ],
-      "assemblyNames": [
-        "ro15_ncbi_only_chr.fna"
-      ],
-      "adapter": {
-        "type": "Gff3TabixAdapter",
-        "gffGzLocation": {
-          "uri": "chromosome_sRNA_sorted.gff.gz"
-        },
-        "index": {
-          "location": {
-            "uri": "chromosome_sRNA_sorted.gff.gz.tbi"
-          },
-          "indexType": "TBI"
-        }
-      }
-    },
-    {
-      "type": "FeatureTrack",
-      "trackId": "Operon_prediction",
-      "name": "Operon_prediction",
-      "category": [
-        "Annotation"
-      ],
-      "assemblyNames": [
-        "ro15_ncbi_only_chr.fna"
-      ],
-      "adapter": {
-        "type": "Gff3TabixAdapter",
-        "gffGzLocation": {
-          "uri": "COSMO_short_and_long_reads_operons_sorted.gff.gz"
-        },
-        "index": {
-          "location": {
-            "uri": "COSMO_short_and_long_reads_operons_sorted.gff.gz.tbi"
-          },
-          "indexType": "TBI"
         }
       }
     }
   ],
-<<<<<<< HEAD
-  "internetAccounts": [],
-  "aggregateTextSearchAdapters": [],
-  "connections": [],
-=======
->>>>>>> 9285981e93bceb6500b16faf9d9e23e725023e40
   "defaultSession": {
     "name": "New Default Session",
     "views": [
@@ -361,8 +249,4 @@
       }
     ]
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 9285981e93bceb6500b16faf9d9e23e725023e40
