@@ -625,6 +625,52 @@
           }
         }
       }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Strain EGD-e lifted sRNAs",
+      "name": "Strain EGD-e lifter sRNAs",
+      "category": [
+        "Strain EGD-e Lifted"
+      ],
+      "assemblyNames": [
+        "ro15_ncbi_only_chr.fna"
+      ],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "RO15_EGD_lifted_asRNA_sorted.gff.gz"
+        },
+        "index": {
+          "location": {
+            "uri": "RO15_EGD_lifted_asRNA_sorted.gff.gz.tbi"
+          },
+          "indexType": "TBI"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Strain EGD-e lifted TSSs",
+      "name": "Strain EGD-e lifted TSSs",
+      "category": [
+        "Strain EGD-e Lifted"
+      ],
+      "assemblyNames": [
+        "ro15_ncbi_only_chr.fna"
+      ],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "RO15_EGD_lifted_TSS_sorted.gff.gz"
+        },
+        "index": {
+          "location": {
+            "uri": "RO15_EGD_lifted_TSS_sorted.gff.gz.tbi"
+          },
+          "indexType": "TBI"
+        }
+      }
     }
   ],
   "internetAccounts": [],
