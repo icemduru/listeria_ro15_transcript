@@ -281,7 +281,7 @@
       "trackId": "R173_1-608kbp",
       "name": "R173_1-608kbp",
       "category": [
-        "Direct RNA"
+        "Direct RNA (Splited due to storage issues)"
       ],
       "assemblyNames": [
         "ro15_ncbi_only_chr.fna"
@@ -316,7 +316,7 @@
       "trackId": "R173_608-1217kbp",
       "name": "R173_608-1217kbp",
       "category": [
-        "Direct RNA"
+        "Direct RNA (Splited due to storage issues)"
       ],
       "assemblyNames": [
         "ro15_ncbi_only_chr.fna"
@@ -351,7 +351,7 @@
       "trackId": "R173_1217-1825kbp",
       "name": "R173_1217-1825kbp",
       "category": [
-        "Direct RNA"
+        "Direct RNA (Splited due to storage issues)"
       ],
       "assemblyNames": [
         "ro15_ncbi_only_chr.fna"
@@ -386,7 +386,7 @@
       "trackId": "R173_1825-2434kbp",
       "name": "R173_1825-2434kbp",
       "category": [
-        "Direct RNA"
+        "Direct RNA (Splited due to storage issues)"
       ],
       "assemblyNames": [
         "ro15_ncbi_only_chr.fna"
@@ -421,7 +421,7 @@
       "trackId": "R173_2434-3042kbp",
       "name": "R173_2434-3042kbp",
       "category": [
-        "Direct RNA"
+        "Direct RNA (Splited due to storage issues)"
       ],
       "assemblyNames": [
         "ro15_ncbi_only_chr.fna"
@@ -456,7 +456,7 @@
       "trackId": "R312_1-608kbp",
       "name": "R312_1-608kbp",
       "category": [
-        "Direct RNA"
+        "Direct RNA (Splited due to storage issues)"
       ],
       "assemblyNames": [
         "ro15_ncbi_only_chr.fna"
@@ -491,7 +491,7 @@
       "trackId": "R312_608-1217kbp",
       "name": "R312_608-1217kbp",
       "category": [
-        "Direct RNA"
+        "Direct RNA (Splited due to storage issues)"
       ],
       "assemblyNames": [
         "ro15_ncbi_only_chr.fna"
@@ -526,7 +526,7 @@
       "trackId": "R312_1217-1825kbp",
       "name": "R312_1217-1825kbp",
       "category": [
-        "Direct RNA"
+        "Direct RNA (Splited due to storage issues)"
       ],
       "assemblyNames": [
         "ro15_ncbi_only_chr.fna"
@@ -561,7 +561,7 @@
       "trackId": "R312_1825-2434kbp",
       "name": "R312_1825-2434kbp",
       "category": [
-        "Direct RNA"
+        "Direct RNA (Splited due to storage issues)"
       ],
       "assemblyNames": [
         "ro15_ncbi_only_chr.fna"
@@ -596,7 +596,7 @@
       "trackId": "R312_2434-3042kbp",
       "name": "R312_2434-3042kbp",
       "category": [
-        "Direct RNA"
+        "Direct RNA (Splited due to storage issues)"
       ],
       "assemblyNames": [
         "ro15_ncbi_only_chr.fna"
