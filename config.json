@@ -671,6 +671,29 @@
           "indexType": "TBI"
         }
       }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "circRNA Predictionf",
+      "name": "circRNA Prediction",
+      "category": [
+        "Annotation"
+      ],
+      "assemblyNames": [
+        "ro15_ncbi_only_chr.fna"
+      ],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "RO15_circRNAs_sorted.gff.gz"
+        },
+        "index": {
+          "location": {
+            "uri": "RO15_circRNAs_sorted.gff.gz.tbi"
+          },
+          "indexType": "TBI"
+        }
+      }
     }
   ],
   "internetAccounts": [],
